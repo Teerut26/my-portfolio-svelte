@@ -62,6 +62,10 @@
 			icon: '/icons/vue.svg'
 		},
         {
+			title: 'NuxtJS',
+			icon: '/icons/nuxt.svg'
+		},
+        {
 			title: 'Svelte',
 			icon: '/icons/svelte.svg'
 		},
