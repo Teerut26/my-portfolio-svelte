@@ -41,7 +41,7 @@
 						{#if githuRepo.language === 'Jupyter Notebook'}
 							<img class="w-[3rem]" src={`/icons/jupyter.svg`} alt="" />
 						{/if}
-						{#if githuRepo.language !== null}
+						{#if githuRepo.language !== null && githuRepo.language !== 'Jupyter Notebook'}
 							<img
 								class="w-[3rem]"
 								src={`/icons/${githuRepo.language.toLocaleLowerCase()}.svg`}
