@@ -33,7 +33,7 @@
 	];
 </script>
 <div class="bg-gradient-to-r border-0 from-[#766DFF] to-[#88F3FF] py-0 md:py-16 flex justify-center items-center ">
-	<div class="bg-white rounded-0 md:rounded-3xl md:shadow-2xl md:max-w-6xl hover:scale-110 transform duration-100">
+	<div class="bg-white rounded-0 md:rounded-3xl md:shadow-2xl md:max-w-6xl ">
 		<div class="p-10 flex flex-col md:flex-row gap-5 md:gap-10 w-full items-center ">
 			<div class="max-w-[15rem] md:max-w-md">
 				<img class="w-full rounded-3xl" src="/profile.jpg" alt="" />
