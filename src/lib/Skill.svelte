@@ -88,7 +88,7 @@
 <div class="bg-white py-10">
 	<div class="max-w-6xl mx-auto flex flex-col items-center gap-5 px-10">
 		<div>
-			<div class="text-main1 text-3xl">MY SKILL</div>
+			<div class="text-main1 font-bold text-3xl">MY SKILL</div>
 		</div>
 		<div>
 			<div class="flex flex-wrap justify-center gap-5 w-full max-w-2xl">

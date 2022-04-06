@@ -7,7 +7,7 @@
 <div class="bg-white py-10">
 	<div class="max-w-6xl mx-auto flex flex-col items-center gap-5 px-10">
 		<div>
-			<div class="text-main1 text-3xl">GITHUB</div>
+			<div class="text-main1 font-bold text-3xl">GITHUB</div>
 		</div>
 		<div class="flex flex-col md:flex-row">
 			<a href={githubData?.html_url} class="stats rounded-[2.5rem] bg-gradient-to-r border-0 from-[#766DFF] to-[#88F3FF] text-white  flex flex-col md:flex-row shadow">
