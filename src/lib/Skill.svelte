@@ -93,7 +93,7 @@
 		<div>
 			<div class="flex flex-wrap justify-center gap-5 w-full max-w-2xl">
 				{#each skillLang as lang}
-					<div class="flex items-center">
+					<div class="flex items-center hover:scale-110 transform duration-100">
 						<div>
 							<img title={lang.title} class="w-20  drop-shadow-md" src={lang.icon} alt="" />
 						</div>
