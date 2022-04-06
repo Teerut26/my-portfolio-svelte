@@ -36,7 +36,7 @@
 	<div class="bg-white rounded-0 md:rounded-3xl md:shadow-2xl md:max-w-6xl ">
 		<div class="p-10 flex flex-col md:flex-row gap-5 md:gap-10 w-full items-center ">
 			<div class="max-w-[15rem] md:max-w-md">
-				<img class="w-full rounded-3xl" src="/profile.avif" alt="" />
+				<img class="w-full rounded-3xl" src="/profile.jpg" alt="" />
 			</div>
 			<div class="w-full flex flex-col gap-5 md:gap-10 justify-center items-center md:items-start">
 				<div class="text-xl text-main2">สวัสดีครับทุกคน ผม!</div>
