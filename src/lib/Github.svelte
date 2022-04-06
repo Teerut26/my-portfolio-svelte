@@ -10,7 +10,7 @@
 			<div class="text-main1 text-3xl">GITHUB</div>
 		</div>
 		<div class="flex flex-col md:flex-row">
-			<a href={githubData?.html_url} class="stats  rounded-[2.5rem] bg-gradient-to-r border-0 from-[#766DFF] to-[#88F3FF] text-white  flex flex-col md:flex-row shadow">
+			<a href={githubData?.html_url} class="stats rounded-[2.5rem] bg-gradient-to-r border-0 from-[#766DFF] to-[#88F3FF] text-white  flex flex-col md:flex-row shadow">
                 <div class="stat flex">
                     <div class="stat-figure text-secondary">
                       <div class="avatar online">
