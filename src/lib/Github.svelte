@@ -1,13 +1,7 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import type { GithubRoot } from './interfaces/Github';
 
-	let githubData: GithubRoot | undefined;
-
-	onMount(async () => {
-		let res = await fetch('https://api.github.com/users/teerut26');
-		githubData = await res.json();
-	});
+	export let githubData: GithubRoot | undefined;
 </script>
 
 <div class="bg-white py-10">
