@@ -17,11 +17,11 @@
 	};
 </script>
 
-<div class="bg-white h-full">
+<div class="bg-gradient-to-r border-0 from-[#766DFF] to-[#88F3FF] h-full">
 	<div class="max-w-6xl mx-auto px-5 py-5 flex flex-wrap justify-center gap-3">
 		<!-- {JSON.stringify(githuRepos)} -->
 		{#each githuRepos as githuRepo}
-			<a href={githuRepo.svn_url} class="stats bg-base-300 shadow max-w-[20rem] w-full text-white">
+			<a href={githuRepo.svn_url} class="stats shadow max-w-[20rem] w-full text-main1 bg-white">
 				<div class="stat">
 					<div class="stat-figure text-secondary">
 						{#if githuRepo.language === null || githuRepo.language === 'mcfunction'}
@@ -49,9 +49,14 @@
 							/>
 						{/if}
 					</div>
+
 					<div class="truncate">{githuRepo.name}</div>
-					<!-- <div class="stat-value">89,400</div> -->
-					<div class="stat-desc">{githuRepo.language}</div>
+					<div class="stat-desc">
+						{githuRepo.language}
+						{#if githuRepo.fork}
+							<div class="badge badge-accent badge-outline">fork</div>
+						{/if}
+					</div>
 				</div>
 			</a>
 		{/each}
