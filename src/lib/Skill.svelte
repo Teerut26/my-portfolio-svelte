@@ -77,6 +77,10 @@
 			title: 'Firebase',
 			icon: '/icons/firebase.svg'
 		},
+        {
+			title: 'Docker',
+			icon: '/icons/docker.svg'
+		},
        
 	];
 </script>
