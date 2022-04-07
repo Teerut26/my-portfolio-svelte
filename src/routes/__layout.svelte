@@ -22,6 +22,7 @@
 			font-family: 'Prompt', sans-serif;
 		}
 	</style>
+    <title>Teerut Portfolio</title>
 </svelte:head>
 
 <div>
