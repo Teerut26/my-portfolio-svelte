@@ -1,8 +1,14 @@
 <script lang="ts">
+	import { navigating } from '$app/stores';
+
 	import Footer from '$lib/Footer.svelte';
 	import Navbar from '$lib/Navbar.svelte';
 
 	import '../app.css';
+	import Loading from '$lib/Loading.svelte';
+	import { loading } from '$lib/stores/loading';
+
+	$: $loading = !!$navigating;
 </script>
 
 <svelte:head>
@@ -22,15 +28,15 @@
 			font-family: 'Prompt', sans-serif;
 		}
 	</style>
-    <title>Teerut Portfolio</title>
+	<title>Teerut Portfolio</title>
 </svelte:head>
-
+<Loading />
 <div>
 	<Navbar />
 	<div class="flex flex-col h-screen">
 		<div class="flex-grow">
-            <slot />
-        </div>
+			<slot />
+		</div>
 		<Footer />
 	</div>
 </div>

@@ -1,3 +1,15 @@
+<script lang="ts" context="module">
+	export const load = async () => {
+		let res = await fetch('https://api.github.com/users/Teerut26/repos');
+		let githuRepos: Repo[] = await res.json();
+		return {
+			props: {
+				githuRepos
+			}
+		};
+	};
+</script>
+
 <script lang="ts">
 	import type { Repo } from '$lib/interfaces/Github';
 	export let githuRepos: Repo[] | undefined;
