@@ -7,6 +7,7 @@
 	import '../app.css';
 	import Loading from '$lib/Loading.svelte';
 	import { loading } from '$lib/stores/loading';
+	import Kofi from '$lib/Kofi.svelte';
 
 	$: $loading = !!$navigating;
 </script>
@@ -31,6 +32,7 @@
 	<title>Teerut Portfolio</title>
 </svelte:head>
 <Loading />
+<Kofi />
 <div>
 	<Navbar />
 	<div class="flex flex-col h-screen">
